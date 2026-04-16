@@ -16,4 +16,4 @@ df["price"] = df["price"].str.replace("$", "").astype(float) # replaces $ with n
 df["sales"] = df["price"] * df["quantity"] # creates new column = sales column * quantity column
 df = df.drop(columns=["product", "price", "quantity"]) # drops columns
 df = df.iloc[:, [2, 1, 0]] # reorders columns (: - keep all rows)
-df.to_csv('../quantium-starter-repo/data/task.csv', index=False) # creates file without the index
+df.to_csv('task.csv', index=False) # creates file without the index
