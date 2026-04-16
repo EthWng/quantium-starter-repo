@@ -1,0 +1,19 @@
+body {
+    background-color: #fff0f7;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: #ff69b4;
+    padding: 20px;
+}
+
+.radio-container {
+    background-color: #ffe4f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 40px;
+    text-align: center;
+    font-size: 18px;
+}
